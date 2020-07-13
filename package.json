@@ -14,7 +14,7 @@
         "template": "bulma-theme",
         "homepage": "https://monarchwadia.github.io/bulma-theme/",
         "scripts": {
-            "deploy": "npm run deploy",
+            "deploy": "npm run build && npm run deploy",
             "develop": "npm run start"
         }
     },
