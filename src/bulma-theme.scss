@@ -2,12 +2,20 @@
 @import "~bulma";
 @import "overrides";
 
-.wrapper {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   background-image: url('../hero_bg.svg');
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100vh;
+  background-color: #FEFEFE;
+}
+
+.wrapper {
   padding: 5rem;
+  padding-top: 10rem;
 }
 
 .hero .subtitle {
@@ -15,8 +23,8 @@
 }
 
 .mockup {
-  width: 400px;
-  margin-top: -15rem;
+  height: 90vh;
+  margin-top: -23rem;
 }
 
 .bb-section {
@@ -32,7 +40,6 @@
 }
 
 .live-convo .container {
-  background-color: #88DDF8;
   min-width: 100%;
 }
 
@@ -41,5 +48,24 @@
 }
 
 .footer {
-  background-color: #333;
+  background-color: #FEFEFE;
+  text-align: center;
+  height: 50px;
+}
+
+.footer a:link, .footer a:visited {
+  color: #fff;
+}
+
+.content strong {
+  color: #3891AE;
+}
+
+.loading {
+  text-align: center;
+  width: 500px;
+}
+
+.loading .button {
+  border: 0px;
 }
