@@ -17,6 +17,7 @@
             "deploy": "npm run deploy",
             "develop": "npm run start"
         }
+
     },
     "dependencies": {
         "bulma": "^0.9.0"
